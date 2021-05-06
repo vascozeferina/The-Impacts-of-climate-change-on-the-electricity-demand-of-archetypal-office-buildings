@@ -1,0 +1,43 @@
+Output:Table:Monthly,
+    Month_Max_Fac,               !- Name
+    2,                       !- Digits After Decimal
+    Electricity:Facility,     !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Electricity:Facility,    !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    Cooling:Electricity,
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Fans:Electricity,        !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    HeatRejection:Electricity,  !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Pumps:Electricity,       !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 7
+    Humidifier:Electricity,  !- Variable or Meter 8 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 8
+    HeatRecovery:Electricity,!- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum,
+	Heating:Electricity,!- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum,
+	Test1,!- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum,
+	Test2,!- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum,
+	Test3,!- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum,
+	Cooling:EnergyTransfer,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    CoolingCoils:EnergyTransfer,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    CoolingCoils:PlantLoopCoolingDemand,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    General:Cooling:EnergyTransfer,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    PlantLoopCoolingDemand:Facility,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    CORE_BOTTOM:Zone Mean Air Temperature,
+	ValueWhenMaximumOrMinimum,
+	CORE_MID:Zone Air Temperature,
+	ValueWhenMaximumOrMinimum,
+	PlantLoopCoolingDemand:HVAC,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 4
