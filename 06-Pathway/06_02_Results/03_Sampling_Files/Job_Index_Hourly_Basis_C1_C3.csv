@@ -1,0 +1,12 @@
+C1_Extreme_529_Large,SGP_Singapore_Case_000_AN_T-5_Rm-1.75_HW-1.75_RH--5_SR-1.25.epw,Large_Office_DOE_JP1_Sizing_File.imf,1.311,0.049,0.25,6.92716,10.76,10.76,18.58,24,6.7,0.000673,0.000302,5.5,0.2,0,0,C1
+C1_Extreme_529_Medium,SGP_Singapore_Case_000_AN_T-5_Rm-1.75_HW-1.75_RH--5_SR-1.25.epw,Medium_Office_DOE_JP1_Sizing_File.imf,0.049,0.049,0.3,2.6118,10.76,10.76,18.58,24,0,0.000673,0.36,3.23372,0,0,0,C1
+C1_Extreme_529_Small,SGP_Singapore_Case_000_AN_T-5_Rm-1.75_HW-1.75_RH--5_SR-1.25.epw,Small_Office_DOE_JP1_Sizing_File.imf,1.311,0.16,0.39,3.23646,10.76,10.76,18.58,24,0,0.000673,0.36,3.66684,0,0,0,C1
+C1_TMY_6_Large,SGP_Singapore.epw,Large_Office_DOE_JP1_Sizing_File.imf,1.311,0.049,0.25,6.92716,10.76,10.76,18.58,24,6.7,0.000673,0.000302,5.5,0.2,0,0,C1
+C1_TMY_6_Medium,SGP_Singapore.epw,Medium_Office_DOE_JP1_Sizing_File.imf,0.049,0.049,0.3,2.6118,10.76,10.76,18.58,24,0,0.000673,0.36,3.23372,0,0,0,C1
+C1_TMY_6_Small,SGP_Singapore.epw,Small_Office_DOE_JP1_Sizing_File.imf,1.311,0.16,0.39,3.23646,10.76,10.76,18.58,24,0,0.000673,0.36,3.66684,0,0,0,C1
+C3_Extreme_527_Large,GRC_Athens_Case_000_AN_T-5_Rm-1.75_HW-1.75_RH--5_SR-1.25.epw,Large_Office_DOE_JP1_Sizing_File.imf,1.311,0.049,0.25,6.92716,10.76,10.76,18.58,24,6.7,0.000673,0.000302,5.5,0.2,0,0,C3
+C3_Extreme_527_Medium,GRC_Athens_Case_000_AN_T-5_Rm-1.75_HW-1.75_RH--5_SR-1.25.epw,Medium_Office_DOE_JP1_Sizing_File.imf,0.049,0.049,0.3,2.6118,10.76,10.76,18.58,24,0,0.000673,0.36,3.23372,0,0,0,C3
+C3_Extreme_527_Small,GRC_Athens_Case_000_AN_T-5_Rm-1.75_HW-1.75_RH--5_SR-1.25.epw,Small_Office_DOE_JP1_Sizing_File.imf,1.311,0.16,0.39,3.23646,10.76,10.76,18.58,24,0,0.000673,0.36,3.66684,0,0,0,C3
+C3_TMY_4_Large,GRC_Athens.epw,Large_Office_DOE_JP1_Sizing_File.imf,1.311,0.049,0.25,6.92716,10.76,10.76,18.58,24,6.7,0.000673,0.000302,5.5,0.2,0,0,C3
+C3_TMY_4_Medium,GRC_Athens.epw,Medium_Office_DOE_JP1_Sizing_File.imf,0.049,0.049,0.3,2.6118,10.76,10.76,18.58,24,0,0.000673,0.36,3.23372,0,0,0,C3
+C3_TMY_4_Small,GRC_Athens.epw,Small_Office_DOE_JP1_Sizing_File.imf,1.311,0.16,0.39,3.23646,10.76,10.76,18.58,24,0,0.000673,0.36,3.66684,0,0,0,C3
