@@ -1,0 +1,55 @@
+##set1 Location[] @@location@@
+!- Set outputs accordingly
+##if #[Location[] EQS C1]
+Site:Location,
+  SINGAPORE_SGP Design_Conditions,     !- Location Name
+       1.37,     !- Latitude {N+ S-}
+     103.98,     !- Longitude {W- E+}
+       8.00,     !- Time Zone Relative to GMT {GMT+/-}
+      16.00;     !- Elevation {m}
+##elseif #[Location[] EQS C2]
+Site:Location,
+  CAIRO_EGY Design_Conditions,     !- Location Name
+      30.13,     !- Latitude {N+ S-}
+      31.40,     !- Longitude {W- E+}
+       2.00,     !- Time Zone Relative to GMT {GMT+/-}
+      74.00;     !- Elevation {m}
+
+##elseif #[Location[] EQS C3]
+ Site:Location,
+  ATHENS_GRC Design_Conditions,     !- Location Name
+      37.90,     !- Latitude {N+ S-}
+      23.73,     !- Longitude {W- E+}
+       2.00,     !- Time Zone Relative to GMT {GMT+/-}
+      15.00;     !- Elevation {m}
+##elseif #[Location[] EQS C4]
+Site:Location,
+  Beijing_Beijing_CHN Design_Conditions,     !- Location Name
+      39.80,     !- Latitude {N+ S-}
+     116.47,     !- Longitude {W- E+}
+       8.00,     !- Time Zone Relative to GMT {GMT+/-}
+      31.30;     !- Elevation {m}
+
+
+##elseif #[Location[] EQS C5]
+ Site:Location,
+  Lisboa_PRT Design_Conditions,     !- Location Name
+      38.73,     !- Latitude {N+ S-}
+      -9.15,     !- Longitude {W- E+}
+       0.00,     !- Time Zone Relative to GMT {GMT+/-}
+      71.00;     !- Elevation {m}
+##elseif #[Location[] EQS C6]
+ Site:Location,
+  LONDON/GATWICK_GBR Design_Conditions,     !- Location Name
+      51.15,     !- Latitude {N+ S-}
+      -0.18,     !- Longitude {W- E+}
+       0.00,     !- Time Zone Relative to GMT {GMT+/-}
+      62.00;     !- Elevation {m}
+##else
+Site:Location,
+  Putaria_ERROR,     !- Location Name
+      0,     !- Latitude {N+ S-}
+      0,     !- Longitude {W- E+}
+      0.00,     !- Time Zone Relative to GMT {GMT+/-}
+      0.00;     !- Elevation {m}
+##endif

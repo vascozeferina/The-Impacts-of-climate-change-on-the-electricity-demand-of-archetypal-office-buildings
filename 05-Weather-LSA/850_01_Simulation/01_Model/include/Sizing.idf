@@ -1,0 +1,22 @@
+SizingPeriod:WeatherFileConditionType,
+    Summer,
+	SummerExtreme,
+	Monday,
+	No,
+	No;                    !- Sky Clearness
+
+SizingPeriod:WeatherFileConditionType,
+    Winter,
+	WinterExtreme,
+	Monday,
+	No,
+	No;                    !- Sky Clearness
+
+
+Site:WaterMainsTemperature,
+    CORRELATION,             !- Calculation Method
+    ,                        !- Temperature Schedule Name
+    24.31,                   !- Annual Average Outdoor Air Temperature {C}
+    8.00;                    !- Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}
+
+Site:GroundTemperature:BuildingSurface,22.509,22.645,22.781,22.956,23.052,23.080,23.116,23.108,23.133,23.139,23.077,22.913;

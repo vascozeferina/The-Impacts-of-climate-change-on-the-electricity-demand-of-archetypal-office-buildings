@@ -1,0 +1,658 @@
+{
+    "notes": "c0-TotAn; C2,7,8,9 - c35-SPC, c17,22,23,24",
+	
+    "csvs": [
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Total End Uses",
+            "tableName": "A1",
+            "columnHeaders": "A1",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Cooling",
+            "tableName": "A2",
+            "columnHeaders": "A2",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Fans",
+            "tableName": "A3",
+            "columnHeaders": "A3",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Pumps",
+            "tableName": "A4",
+            "columnHeaders": "A4",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Heat Rejection",
+            "tableName": "A5",
+            "columnHeaders": "A5",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Humidification",
+            "tableName": "A6",
+            "columnHeaders": "A6",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Heat Recovery",
+            "tableName": "A7",
+            "columnHeaders": "A7",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [kWh]",
+            "fromRow": "Heating",
+            "tableName": "A8",
+            "columnHeaders": "A8",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Total End Uses",
+            "tableName": "P1",
+            "columnHeaders": "P1",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Cooling",
+            "tableName": "P2",
+            "columnHeaders": "P2",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Fans",
+            "tableName": "P3",
+            "columnHeaders": "P3",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Pumps",
+            "tableName": "P4",
+            "columnHeaders": "P4",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Heat Rejection",
+            "tableName": "P5",
+            "columnHeaders": "P5",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Humidification",
+            "tableName": "P6",
+            "columnHeaders": "P6",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Heat Recovery",
+            "tableName": "P7",
+            "columnHeaders": "P7",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Heating",
+            "tableName": "P8",
+            "columnHeaders": "P8",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Demand End Use Components Summary",
+            "fromTable": "End Uses",
+            "fromColumn": "Electricity [W]",
+            "fromRow": "Time of Peak",
+            "tableName": "Ptimestamp",
+            "columnHeaders": "Ptimestamp",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Estimated Cooling Peak Load Components",
+            "fromColumn": "Sensible - Instant [W]",
+            "fromRow": "Grand Total",
+            "tableName": "SPC_SenI_Fac",
+            "columnHeaders": "SPC_SenI_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Estimated Cooling Peak Load Components",
+            "fromColumn": "Sensible - Delayed [W]",
+            "fromRow": "Grand Total",
+            "tableName": "SPC_SenD_Fac",
+            "columnHeaders": "SPC_SenD_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Estimated Cooling Peak Load Components",
+            "fromColumn": "Latent [W]",
+            "fromRow": "Grand Total",
+            "tableName": "SPC_Lat_Fac",
+            "columnHeaders": "SPC_Lat_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Estimated Cooling Peak Load Components",
+            "fromColumn": "Total [W]",
+            "fromRow": "Grand Total",
+            "tableName": "SPC_Tot_Fac",
+            "columnHeaders": "SPC_Tot_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Cooling Peak Conditions",
+            "fromColumn": "Value",
+            "fromRow": "Time of Peak Load",
+            "tableName": "Ptime_SPC",
+            "columnHeaders": "Ptime_SPC",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Cooling Peak Conditions",
+            "fromColumn": "Value",
+            "fromRow": "Peak Sensible Load with Sizing Factor [W]",
+            "tableName": "SPC_SenSizing_Fac",
+            "columnHeaders": "SPC_SenSizing_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Cooling Peak Conditions",
+            "fromColumn": "Value",
+            "fromRow": "Peak Sensible Load [W]",
+            "tableName": "SPC_SenI2_Fac",
+            "columnHeaders": "SPC_SenI2_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Cooling Peak Conditions",
+            "fromColumn": "Value",
+            "fromRow": "Estimated Instant + Delayed Sensible Load [W]",
+            "tableName": "SPC_SenI+D_Fac",
+            "columnHeaders": "SPC_SenI+D_Fac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Engineering Checks for Cooling",
+            "fromColumn": "Value",
+            "fromRow": "Outside Air Fraction [fractio]",
+            "tableName": "SPC_AirFrac",
+            "columnHeaders": "SPC_AirFrac",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Engineering Checks for Cooling",
+            "fromColumn": "Value",
+            "fromRow": "Airflow per Floor Area [m3/s-m2]",
+            "tableName": "SPC_AirFlow",
+            "columnHeaders": "SPC_AirFlow",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Facility Component Load Summary",
+            "fromTable": "Engineering Checks for Cooling",
+            "fromColumn": "Value",
+            "fromRow": "Airflow per Total Capacity [m3/s-W]",
+            "tableName": "SPC_AirFlowperSPC",
+            "columnHeaders": "SPC_AirFlowperSPC",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "ELECTRICITY:FACILITY {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P1_June",
+            "columnHeaders": "P1_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Cooling:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P2_June",
+            "columnHeaders": "P2_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Fans:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P3_June",
+            "columnHeaders": "P3_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Pumps:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P4_June",
+            "columnHeaders": "P4_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HEATREJECTION:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P5_June",
+            "columnHeaders": "P5_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HUMIDIFIER:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P6_June",
+            "columnHeaders": "P6_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HEATRECOVERY:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P7_June",
+            "columnHeaders": "P7_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Heating:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "P8_June",
+            "columnHeaders": "P8_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Cooling:EnergyTransfer {AT MAX/MIN} [W]",
+            "fromRow": "June",
+            "tableName": "SPC_ET_June",
+            "columnHeaders": "SPC_ET_June",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "ELECTRICITY:FACILITY {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P1_July",
+            "columnHeaders": "P1_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Cooling:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P2_July",
+            "columnHeaders": "P2_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Fans:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P3_July",
+            "columnHeaders": "P3_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Pumps:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P4_July",
+            "columnHeaders": "P4_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HEATREJECTION:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P5_July",
+            "columnHeaders": "P5_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HUMIDIFIER:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P6_July",
+            "columnHeaders": "P6_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HEATRECOVERY:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P7_July",
+            "columnHeaders": "P7_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Heating:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "P8_July",
+            "columnHeaders": "P8_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Cooling:EnergyTransfer {AT MAX/MIN} [W]",
+            "fromRow": "July",
+            "tableName": "SPC_ET_July",
+            "columnHeaders": "SPC_ET_July",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "ELECTRICITY:FACILITY {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P1_August",
+            "columnHeaders": "P1_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Cooling:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P2_August",
+            "columnHeaders": "P2_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Fans:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P3_August",
+            "columnHeaders": "P3_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Pumps:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P4_August",
+            "columnHeaders": "P4_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HEATREJECTION:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P5_August",
+            "columnHeaders": "P5_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HUMIDIFIER:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P6_August",
+            "columnHeaders": "P6_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "HEATRECOVERY:ELECTRICITY {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P7_August",
+            "columnHeaders": "P7_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Heating:Electricity {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "P8_August",
+            "columnHeaders": "P8_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "MONTH_MAX_FAC",
+            "fromTable": "Custom Monthly Report",
+            "fromColumn": "Cooling:EnergyTransfer {AT MAX/MIN} [W]",
+            "fromRow": "August",
+            "tableName": "SPC_ET_August",
+            "columnHeaders": "SPC_ET_August",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Electricity Annual Value [kWh]",
+            "fromRow": "Test1",
+            "tableName": "An_Tes1",
+            "columnHeaders": "An_Tes1",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Electricity Maximum Value [W]",
+            "fromRow": "Test1",
+            "tableName": "P_Test1",
+            "columnHeaders": "P_Test1",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Timestamp of Maximum {TIMESTAMP}",
+            "fromRow": "Test1",
+            "tableName": "P_Time_Test1",
+            "columnHeaders": "P_Time_Test1",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Electricity Annual Value [kWh]",
+            "fromRow": "Test2",
+            "tableName": "An_Tes2",
+            "columnHeaders": "An_Tes2",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Electricity Maximum Value [W]",
+            "fromRow": "Test2",
+            "tableName": "P_Test2",
+            "columnHeaders": "P_Test2",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Timestamp of Maximum {TIMESTAMP}",
+            "fromRow": "Test2",
+            "tableName": "P_Time_Test2",
+            "columnHeaders": "P_Time_Test2",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Electricity Annual Value [kWh]",
+            "fromRow": "Test3",
+            "tableName": "An_Tes3",
+            "columnHeaders": "An_Tes3",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Electricity Maximum Value [W]",
+            "fromRow": "Test3",
+            "tableName": "P_Test3",
+            "columnHeaders": "P_Test3",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Energy Meters",
+            "fromTable": "Annual and Peak Values - Electricity",
+            "fromColumn": "Timestamp of Maximum {TIMESTAMP}",
+            "fromRow": "Test3",
+            "tableName": "P_Time_Test3",
+            "columnHeaders": "P_Time_Test3",
+            "usedInCalc": true
+        },
+        {
+            "sourceCsv": "eplustbl.csv",
+            "fromReport": "Annual Building Utility Performance Summary",
+            "fromTable": "Comfort and Setpoint Not Met Summary",
+            "fromColumn": "Facility [Hours]",
+            "fromRow": "Time Setpoint Not Met During Occupied Cooling",
+            "tableName": "Cooling_Not_Met",
+            "columnHeaders": "Cooling_Not_Met",
+            "usedInCalc": true
+        }
+    ],
+	"userVars": [
+		]
+}
